@@ -28,7 +28,7 @@ path :
   repository : git+https:///github.com/Wandalen/wModuleForTesting2a.git
   origins :
    - git+https:///github.com/Wandalen/wModuleForTesting2a.git
-   - npm:///wProto
+   - npm:///wModuleForTesting2a
   bugtracker : https:///github.com/Wandalen/wModuleForTesting2a/issues
 
 step :
