@@ -1,28 +1,45 @@
 {
-  "name" : "wmodulefortesting2a", 
-  "version" : "0.0.2", 
-  "engine" : "node >= 8.0.0", 
-  "description" : "Module for testing. This module is test assets not intended to be used with another purpose.", 
-  "author" : "Kostiantyn Wandalen <wanalen@willbe.so>", 
-  "license" : "MIT", 
-  "contributors" : 
-  [
-    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@willbe.so" }, 
-    { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
-  ], 
-  "main" : "proto/dwtools/abase/l2/Include.s", 
-  "files" : [ "proto/dwtools/abase/l2", "out" ], 
-  "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen proto" }, 
-  "repository" : 
-  {
-    "type" : "git", 
-    "url" : "https://github.com/Wandalen/wModuleForTesting2a.git"
-  }, 
-  "bugs" : 
-  {
-    "url" : "https://github.com/Wandalen/wModuleForTesting2a/issues"
-  }, 
-  "dependencies" : { "wmodulefortesting2" : "alpha" }, 
-  "devDependencies" : { "wmodulefortesting2a" : "file:.", "wTesting" : "alpha" }, 
-  "keywords" : [ "willbe", "test" ]
+  "name": "wmodulefortesting2a",
+  "version": "0.0.2",
+  "engine": "node >= 8.0.0",
+  "description": "Module for testing. This module is test assets not intended to be used with another purpose.",
+  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Kostiantyn Wandalen",
+      "email": "wanalen@willbe.so"
+    },
+    {
+      "name": "Kryvoruchko Dmytro",
+      "email": "dm.vict.kr@gmail.com"
+    }
+  ],
+  "main": "proto/dwtools/abase/l3/Include.s",
+  "files": [
+    "proto/dwtools/abase/l3",
+    "out"
+  ],
+  "scripts": {
+    "test": "wtest .run proto/**",
+    "docgen": "wdocgen proto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wModuleForTesting2a.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wandalen/wModuleForTesting2a/issues"
+  },
+  "dependencies": {
+    "wmodulefortesting2": "alpha"
+  },
+  "devDependencies": {
+    "wmodulefortesting2a": "file:.",
+    "wTesting": "alpha"
+  },
+  "keywords": [
+    "willbe",
+    "test"
+  ]
 }
