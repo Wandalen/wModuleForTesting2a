@@ -9,7 +9,7 @@
 let _ = null;
 
 if( typeof module !== 'undefined' )
-_ = require( './l2/ModuleForTesting2a.s' );
+_ = require( './l3/ModuleForTesting2a.s' );
 
 if( typeof module !== 'undefined' && module !== null )
 module[ 'exports' ].squareOfMul = _.squareOfMul;
