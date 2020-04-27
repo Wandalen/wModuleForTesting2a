@@ -3,14 +3,14 @@ root:
   - wModuleForTesting2a.out
 consistency:
   wModuleForTesting2a.out.will.yml: &ref_0
-    hash: 899f7ff4c775a598a20690b18631de40
-    size: 38472
+    hash: ff9f6e77ec60ff4c640eaada24360591
+    size: 38049
   ../.ex.will.yml: &ref_1
     hash: e65322bba5e46587b3d1272acc9468c3
     size: 1861
   ../.im.will.yml: &ref_2
-    hash: f08513c36d7748c5d78e72b60e43bd41
-    size: 4963
+    hash: 684da5e8c35667cd2775d30c150e14f0
+    size: 4834
 module:
   wModuleForTesting2a.out:
     about:
@@ -162,25 +162,15 @@ module:
           - ../proto/dwtools/abase
           - ../proto/dwtools/abase/l3
           - ../proto/dwtools/abase/l3/Include.s
-          - ../proto/dwtools/abase/l3/l2
-          - ../proto/dwtools/abase/l3/l2/ModuleForTesting2a.s
+          - ../proto/dwtools/abase/l3/l3
+          - ../proto/dwtools/abase/l3/l3/ModuleForTesting2a.s
           - ../proto/dwtools/abase/l3.test
           - ../proto/dwtools/abase/l3.test/ModuleForTesting2a.test.s
     submodule:
-      wTools:
-        path: 'npm:///wTools'
-        autoExporting: 0
-        enabled: 0
       wModuleForTesting2:
         path: 'npm:///wmodulefortesting2'
         autoExporting: 0
         enabled: 0
-      Self:
-        path: 'hd://..'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       wTesting:
         path: 'npm:///wTesting'
         autoExporting: 0
@@ -945,20 +935,10 @@ module:
           content: prime
         path: '{path::out.*=}/source/Index.s'
     submodule:
-      wTools:
-        path: 'npm:///wTools'
-        autoExporting: 0
-        enabled: 0
       wModuleForTesting2:
         path: 'npm:///wmodulefortesting2'
         autoExporting: 0
         enabled: 0
-      Self:
-        path: 'hd://.'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       wTesting:
         path: 'npm:///wTesting'
         autoExporting: 0
@@ -1509,8 +1489,8 @@ module:
         hash: e65322bba5e46587b3d1272acc9468c3
         size: 1861
       ../.im.will.yml:
-        hash: f08513c36d7748c5d78e72b60e43bd41
-        size: 4963
+        hash: 684da5e8c35667cd2775d30c150e14f0
+        size: 4834
       wModuleForTesting2a.out.will.yml:
-        hash: 899f7ff4c775a598a20690b18631de40
-        size: 38472
+        hash: ff9f6e77ec60ff4c640eaada24360591
+        size: 38049
