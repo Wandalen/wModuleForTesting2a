@@ -1,7 +1,7 @@
 submodule :
 
   wModuleForTesting2 :
-    path : npm:///wmodulefortesting2
+    path : git:///wmodulefortesting2
     enabled : 0
   # Self :
   #  path : hd://.
