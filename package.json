@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting2a",
-  "version" : "0.0.53",
+  "version" : "0.0.54",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is test assets not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -22,7 +22,7 @@
   {
     "url" : "https://github.com/Wandalen/wModuleForTesting2a/issues"
   },
-  "dependencies" : { "wmodulefortesting2" : "gamma" },
-  "devDependencies" : { "wmodulefortesting2a" : "file:.", "wTesting" : "gamma" },
+  "dependencies" : { "wmodulefortesting2" : "alpha" },
+  "devDependencies" : { "wmodulefortesting2a" : "file:.", "wTesting" : "alpha" },
   "keywords" : [ "willbe", "test" ]
 }
