@@ -5,7 +5,7 @@
 if( typeof module !== 'undefined' )
 {
 
-  var _ = require( '../l3/testing2a/Include.s' );
+  let _ = require( '../l3/testing2a/Include.s' );
 
   require( 'wTesting' );
 
@@ -36,7 +36,7 @@ function trivial( test )
 // declare
 // --
 
-var Self =
+let Self =
 {
 
   name : 'Tools.base.l3.ModuleForTesting2a',

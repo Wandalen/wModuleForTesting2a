@@ -1,4 +1,4 @@
-var _ = require( '../' )
+let _ = require( '../' )
 
 var result = _.squareOfMul( 1, 2, 3 );
 
