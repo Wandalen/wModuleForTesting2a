@@ -1,17 +1,15 @@
-( function _ModuleForTesting2a_test_s_() {
+( function _ModuleForTesting2a_test_s_()
+{
 
 'use strict';
 
 if( typeof module !== 'undefined' )
 {
-
-  let _ = require( '../l3/testing2a/Include.s' );
-
+  require( '../l3/testing2a/Include.s' );
   require( 'wTesting' );
-
 }
 
-
+let _ = _global_._test_;
 
 // --
 // test
