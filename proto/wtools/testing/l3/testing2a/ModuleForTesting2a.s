@@ -19,12 +19,14 @@ function squareOfMul()
   return result;
 }
 
+Object.assign( _, { squareOfMul } );
+
 // --
 // export
 // --
 
 if( typeof module !== 'undefined' && module !== null )
-module[ 'exports' ].squareOfMul = squareOfMul;
+module[ 'exports' ] = _;
 
 })();
 
