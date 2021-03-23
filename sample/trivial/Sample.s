@@ -1,7 +1,5 @@
-if( typeof module !== 'undefined' )
-require( 'wmodulefortesting2a' );
 
-let _ = _global_._test_;
+let _ = require( 'wmodulefortesting2a' );
 
 var result = _.squareOfMul( 1, 2, 3 );
 
