@@ -3,10 +3,9 @@
 
 'use strict';
 
+let _;
 if( typeof module !== 'undefined' )
-require( 'wmodulefortesting2' );
-
-let test2 = _global_._test_;
+_ = require( 'wmodulefortesting2' );
 
 // --
 // Routines
@@ -14,22 +13,18 @@ let test2 = _global_._test_;
 
 function squareOfMul()
 {
-  let result = test2.mulOfNumbers.apply( this, arguments );
+  let result = _.mulOfNumbers.apply( this, arguments );
   result = result * result;
 
   return result;
 }
-
-//
-
-test2 = Object.assign( test2, { squareOfMul } );
 
 // --
 // export
 // --
 
 if( typeof module !== 'undefined' && module !== null )
-module[ 'exports' ] = test2;
+module[ 'exports' ].squareOfMul = squareOfMul;
 
 })();
 
