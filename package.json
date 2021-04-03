@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting2a",
-  "version" : "0.0.126",
+  "version" : "0.0.127",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -10,7 +10,7 @@
     { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
     { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
   ],
-  "main" : "/pro/module/wModuleForTesting2a/proto/node_modules/wmodulefortesting2a",
+  "main" : "proto/node_modules/wmodulefortesting2a",
   "files" : [ "proto/wtools/testing/l3/testing2a", "proto/wtools/testing/Basic.s", "out", "proto/node_modules" ],
   "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
   "repository" :
