@@ -6,8 +6,8 @@ consistency:
     hash: b00f92e4d42751204fa727922c860129
     size: 1867
   ../.im.will.yml: &ref_1
-    hash: 676106223ed3efe250321f1dfbd45a16
-    size: 5080
+    hash: d0ca57ccb808961e123f4b6d4a55e076
+    size: 5054
 module:
   wModuleForTesting2a.out:
     about:
@@ -143,6 +143,10 @@ module:
           raw: compiled
           content: prime
         path: '{path::out.*=}/source/Index.s'
+      npm.proto.entry:
+        path:
+          - ../proto/wtools/testing/l3/testing2a/Include.s
+          - ../proto/node_modules/wmodulefortesting2a
       exported.dir.proto.export:
         criterion:
           generated: 1
@@ -907,6 +911,10 @@ module:
           raw: compiled
           content: prime
         path: '{path::out.*=}/source/Index.s'
+      npm.proto.entry:
+        path:
+          - proto/wtools/testing/l3/testing2a/Include.s
+          - proto/node_modules/wmodulefortesting2a
     submodule:
       ModuleForTesting2:
         path: 'git+https://github.com/Wandalen/wModuleForTesting2.git/!alpha'
@@ -1459,5 +1467,5 @@ module:
         hash: b00f92e4d42751204fa727922c860129
         size: 1867
       ../.im.will.yml:
-        hash: 676106223ed3efe250321f1dfbd45a16
-        size: 5080
+        hash: d0ca57ccb808961e123f4b6d4a55e076
+        size: 5054
