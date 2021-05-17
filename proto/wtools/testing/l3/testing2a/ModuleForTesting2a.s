@@ -3,9 +3,7 @@
 
 'use strict';
 
-let _;
-if( typeof module !== 'undefined' )
-_ = require( 'wmodulefortesting2' );
+let _ = require( 'wmodulefortesting2' );
 
 // --
 // Routines
