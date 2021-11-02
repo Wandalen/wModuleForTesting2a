@@ -3,7 +3,7 @@ root:
   - wModuleForTesting2a.out
 consistency:
   ../will.yml: &ref_0
-    hash: b12caa64618ccdc116bc9c3a12e5f4a5
+    hash: 159a696be21b5d05ba1d799601ead3d7
     size: 6251
 module:
   wModuleForTesting2a.out:
@@ -160,7 +160,7 @@ module:
           - ../proto/wtools/testing/l3/testing2a/ModuleForTesting2a.s
     submodule:
       wModuleForTesting2:
-        path: 'git+https://../github.com/Wandalen/wModuleForTesting2.git!alpha'
+        path: 'git+https://../github.com/Wandalen/wModuleForTesting2.git!gamma'
         autoExporting: 0
         enabled: 0
     reflector:
@@ -876,7 +876,7 @@ module:
           - proto/node_modules/wmodulefortesting2a
     submodule:
       wModuleForTesting2:
-        path: 'git+https://github.com/Wandalen/wModuleForTesting2.git/!alpha'
+        path: 'git+https://github.com/Wandalen/wModuleForTesting2.git/!gamma'
         autoExporting: 0
         enabled: 0
     reflector:
@@ -1402,5 +1402,5 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: b12caa64618ccdc116bc9c3a12e5f4a5
+        hash: 159a696be21b5d05ba1d799601ead3d7
         size: 6251
